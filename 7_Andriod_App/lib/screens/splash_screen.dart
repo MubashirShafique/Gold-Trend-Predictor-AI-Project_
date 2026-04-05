@@ -20,14 +20,13 @@ class _SplashScreenState extends State<SplashScreen>
     _controller = AnimationController(
       duration: const Duration(seconds: 2),
       vsync: this,
-    )..repeat(reverse: true); // Ise repeat karenge "Breathing" effect ke liye
+    )..repeat(reverse: true);
 
     _pulseAnimation = Tween<double>(
       begin: 1.0,
       end: 1.1,
     ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeInOut));
 
-    // 4 seconds baad next screen (40 seconds bohot zyada tha!)
     Timer(Duration(seconds: 4), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (context) => DashboardScreen()),
@@ -47,24 +46,19 @@ class _SplashScreenState extends State<SplashScreen>
       body: Container(
         width: double.infinity,
         decoration: BoxDecoration(
-          // Radial Gradient jo logo ko spotlight deta hai
           gradient: RadialGradient(
             center: Alignment.center,
             radius: 1.2,
-            colors: [
-              Color(0xFF1E1E1E), // Center thora light
-              Colors.black, // Corners bilkul dark
-            ],
+            colors: [Color(0xFF1E1E1E), Colors.black],
           ),
         ),
         child: Center(
           child: ScaleTransition(
-            scale: _pulseAnimation, // Logo aahista se pulse karega
+            scale: _pulseAnimation,
             child: Container(
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 boxShadow: [
-                  // Multiple shadows for deeper glow
                   BoxShadow(
                     color: Color(0xFFFFD700).withOpacity(0.3),
                     blurRadius: 60,
@@ -78,7 +72,7 @@ class _SplashScreenState extends State<SplashScreen>
                 ],
               ),
               child: Image.asset(
-                'assets/logo/icon.png', // Image 2 wala transparent logo
+                'assets/logo/icon.png',
                 width: 220,
                 height: 220,
               ),
