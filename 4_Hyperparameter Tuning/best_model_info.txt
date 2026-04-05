@@ -1,0 +1,3 @@
+Best Model: Logistic Regression
+Accuracy: 0.9093
+Hyperparameters: {'C': 10, 'penalty': 'l2'}

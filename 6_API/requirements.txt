@@ -1,0 +1,7 @@
+yfinance
+pandas
+numpy
+joblib
+uvicorn
+fastapi
+scikit-learn
