@@ -36,7 +36,7 @@ An end-to-end Machine Learning pipeline designed to predict Gold Market trends (
 
 ***6_API:*** Backend service for model serving (FastAPI).
 
-***7_Android_App:***ource code for the Flutter Android application.
+***7_Android_App:*** Source code for the Flutter Android application.
 
 
 ## Team Roles & Responsibilities 
