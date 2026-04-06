@@ -5,8 +5,8 @@ An end-to-end Machine Learning pipeline designed to predict Gold Market trends (
 
 ## App Showcases
 | Splash Screen | Market Insights | Live Charts | Global News |
-| :---: | :---: | :---: | :---: |
-| <img src="8_Mobile_App_ScreenShot/1_.png" width="200"> | <img src="8_Mobile_App_ScreenShot/2_.png" width="200"> | <img src="8_Mobile_App_ScreenShot/3_.png" width="200"> | <img src="8_Mobile_App_ScreenShot/4_.png" width="200"> |
+| :---:   | :---: | :---: | :---: |
+| <img src="8_Mobile_App_ScreenShot/1_.png" width="200">  |  <img src="8_Mobile_App_ScreenShot/2_.png" width="200">  |  <img src="8_Mobile_App_ScreenShot/3_.png" width="200">  |  <img src="8_Mobile_App_ScreenShot/4_.png" width="200"> |
 
 
 ## Key Features
