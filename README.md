@@ -2,6 +2,9 @@
 
 An end-to-end Machine Learning pipeline designed to predict Gold Market trends (Bullish/Bearish) with high accuracy. This project includes a complete data Science workflow and a seamless Android integration for real-time insights.
 
+> [!IMPORTANT]
+> **Update:** Currently refactoring the X-axis labels for mobile view. Due to viewport constraints on smaller cards, certain date labels (e.g., 03-20 and 04-01) are experiencing overlap. I am implementing a responsive interval fix to resolve this UI glitch in the next push.
+
 
 ## App Showcase
 | Splash Screen | Market Insights | Live Charts | Global News |
